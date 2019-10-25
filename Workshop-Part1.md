@@ -19,7 +19,7 @@ Important keywords are in _italics_ - it can be helpful to remember these.
 
 # Getting started with Python
 We're not going to be using a local installation of Python, because it's a lot of time and hassle to get set up if not already. So instead we're going to use glitch, which is an online platform for writing code (usually web code, but we're adapting!).
-Visit this link, and click 'Remix to Edit' on the right: https://glitch.com/edit/#!/hacksoc-
+Visit this link, and click 'Remix to Edit' on the right: https://glitch.com/edit/#!/hacksoc-python
 
 You should now be able to access the files on the right and make edits to them. Most of the code will be written in the *`app.py`* file, so open that up.
 
