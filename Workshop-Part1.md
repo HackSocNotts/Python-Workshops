@@ -268,7 +268,7 @@ To access a specific item in a list, you _index_ it, like so:
 ```python
 print(fruits[2]) # Should print 'orange'
 ```
-Some of you may wonder why this prints 'orange' and not 'banana'. That's because computers count from zero! Arrays are *zero indexed* which means the value `0` gets the first item, `1` gets the second item, and so on.
+Some of you may wonder why this prints 'orange' and not 'banana'. That's because computers count from zero! Lists are *zero indexed* which means the value `0` gets the first item, `1` gets the second item, and so on.
 
 # Loops
 Loops are used to run pieces of code repeatedly under certain conditions. Python has two types of loop: the `for` loop and the `while` loop.
