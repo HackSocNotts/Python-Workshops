@@ -318,6 +318,21 @@ Be careful - if the condition in your while loop is always true, your code will 
 
 Although you can usually write looped code using either `for` loops or `while` loops, one is often more suitable for a task than the other.
 
+For finer control, you can use the keywords `continue` and `break`.
+
+- `continue` - Ends the current iteration of the loop now, and begins the next iteration.
+- `break` - Terminates the loop
+
+```python
+for i in range(100):
+    if (i > 50):
+        break
+    if i % 2 == 0:
+        continue
+    print(i)
+````
+
+The code above will print the odd numbers between 0 and 50 (`continue` will skip the iterations that are even) and then will `break` the loop once `i` is greater than 50. 
 # String operations
 
 There are some operations you can do on strings (text) that might come in useful.
