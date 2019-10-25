@@ -32,10 +32,9 @@ When learning a new programming language, the first line of code you'll write is
 In Python, such a program might look something like this:
 
 ```python
-print("Hello World!") # Prints Hello World!
+print("Hello World!")
 ```
-
-Funnily enough, that's exactly what you have in *`app.py`*!
+Copy this code into your `app.py` file.
 
 To run this, type `python3 app.py` into your terminal.
 
