@@ -85,7 +85,7 @@ But what if the user doesn't enter a letter, or enters 2 letters, or nothing? We
 Also, what if the player has guessed that letter already?
 
 ```python
-    if guess in availableGuesses:
+    if guess not in availableGuesses:
       print("You have already guessed this letter!\n")
       continue
 ```
