@@ -84,6 +84,28 @@ print(data) #"This is readable text"
 x.close()
 ```
 
+# Formatted strings
+Often you will be working with some variables that are not strings, but that you want to print out. For this the best way is to use something called **fstrings**. fstrings are strings that can have variables, and even snippets of code embeded within it.
+
+To use an fstring you prepend a string with the letter `f`, and then put the variables within `{` `}`.
+
+```python
+mynum = 2
+myfstring = f"This is a string that has {mynum} in the middle."
+print(mystring)
+
+print("You can have code as well: {3 + 7}.")
+```
+You can also format the output to make it more readable. This is especially useful when working with floating point numbers. You can find the various possible formats in the [python docs](https://docs.python.org/3/library/stdtypes.html#printf-style-bytes-formatting).
+
+```python
+mynum = 1/9
+print(f"Unformatted: {mynum}")
+print(f"2 decimal places: {mynum:.2f}")
+print(f"Exponential form, with 2 d.p. of precision: {mynum:.2e}")
+```
+
+
 # Console Reading
 Although File I/O is important, it's sometimes unnecessary for simple command-line applications. For that, we can input values directly into the console!
 
